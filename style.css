@@ -3,5 +3,19 @@ body {
 }
 .navbar {
 padding:10px;
+border-radius:5px;
+}
+
+.navbar a {
+background-color:dodgerblue;
+color:white;
+transition-duration:0.3s;
 text-decoration:none;
+padding:10px;
+border-radius:3px;
+}
+
+.navbar a:hover {
+background-color:royalblue;
+color:white;
 }
